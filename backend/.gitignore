@@ -89,13 +89,6 @@ temp/
 .netlify/
 .firebase/
 
-# ==============================
-# Machine Learning model files
-# IMPORTANT:
-# Required trained models must be shared with teammates.
-# Do not ignore model files needed for predictions.
-# ==============================
-
 # Keep these filenames available for Git, if needed
 !lr_model.pkl
 !model.pkl
@@ -104,16 +97,3 @@ temp/
 !rf_model.pkl
 !*.h5
 !*.keras
-
-# ==============================
-# Dataset files
-# ==============================
-# Keep required datasets available for Git, if needed.
-# Do not ignore reviews.csv or reviews.json by default.
-
-# ==============================
-# Generated Python scripts
-# ==============================
-# Keep these scripts available for Git.
-# generate_dataset.py
-# generate_json.py
