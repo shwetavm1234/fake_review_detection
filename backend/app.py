@@ -21,7 +21,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # 1. PATHS AND DATABASE
 # --------------------------------------------------
 print("RUNNING APP FROM:", __file__)
-print("USING SOFT VOTING FOR ML + LSTM FILE PREDICTIONS")
+
+# BASE_DIR identifies the folder containing app.py.
+# DATABASE_PATH creates the path to reviews.db inside the backend folder.
 
 BASE_DIR = Path(__file__).resolve().parent
 DATABASE_PATH = BASE_DIR / "reviews.db"
